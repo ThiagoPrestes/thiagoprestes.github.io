@@ -30,12 +30,22 @@ section {
   box-shadow: none;
 }
 
+.jumbotron {
+    background-color: #BCD2EE;
+    height: 240px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
 .img-responsive {
   float: right;
   border: transparent;
   display: block;
   height: auto;
-  max-width: 16%;
+  max-width: 32%;
 }
 
 .hability div {
@@ -44,11 +54,11 @@ section {
 }
 
 .hability div:nth-child(odd) {
-  background-color: #EEE;
+  background-color: #CAE1FF;
 }
 
 .hability div:nth-child(even) {
-  background-color: #DDD;
+  background-color: #BCD2EE;
 }
 
 footer {

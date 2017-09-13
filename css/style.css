@@ -31,11 +31,11 @@ section {
 }
 
 .img-responsive {
-	float: right;
-	border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 16%;
+  float: right;
+  border: transparent;
+  display: block;
+  height: auto;
+  max-width: 16%;
 }
 
 .hability div {

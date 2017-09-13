@@ -1,13 +1,13 @@
 html, body {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    background: white;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    padding-top: 70px;
+  background: white;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  padding-top: 70px;
 }
 
 header {
@@ -25,9 +25,9 @@ section {
 }
 
 .navbar-transparente {
-	background: transparent;
-	border: none;
-	box-shadow:none;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .img-responsive {

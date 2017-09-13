@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Compatibilidade entre diferentes dispositivos -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portifólio de Thiago</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	
+	<link rel="icon" href="images/perfil.ico" type="image/x-icon"/>
+</head>
+<body>
+
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top navbar-transparente">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Thiago Prestes</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#exp">Experiência</a></li>
+			  <li class=""><a href="#edu">Formação</a></li>
+			  <li class=""><a href="#contato">Contato</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+      </nav>
+	  
+	  <div class="jumbotron">
+	    <img src="images/perfil.jpg" class="img-responsive img-thumbnail" alt="foto de perfil de Thiago">
+		<h1>Analista Desenvolvedor</h1>
+		<p>Atuando com .Net e Entity</p>
+      </div>
+	  
+	  <h2 id="exp">Experiência Profissional</h2>
+	  <ul>
+		<li><h3>Ventron <small>(desde julho de 2017)</small></h3>
+			<p>Desenvolvimento de sistemas.</p>
+		</li>
+		<li><h3>IBM <small>(desde novembro de 2016)</small></h3>
+			<p>Infraestrutura.</p>
+		</li>
+		<li><h3>Acadepol Sorocaba <small>(setembro de 2015)</small></h3>
+			<p>Suporte em Vídeo Conferência.</p>
+		</li>
+	  </ul>
+
+	  <hr/>
+	  
+	  <h2 id="edu">Formação Acadêmica</h2>
+	  <ul>
+		<li><h3>Fatec Sorocaba <small>(2016)</small></h3>
+			<p>Análise e Desenvolvimento de Sistemas.</p>
+		</li>
+		<li><h3>Rubens de Faria e Souza <small>(2013)</small></h3>
+			<p>Técnico em Administração.</p>
+		</li>
+	  </ul>
+	  
+	  <hr/>
+	  
+	  <h2>Competências</h2>
+	    <div class="container-fluid">
+		  <div class="row hability">
+			<div class="col-md-4 text-center">Java</div>
+			<div class="col-md-4 text-center">C#</div>
+			<div class="col-md-4 text-center">C</div>
+		  </div>
+		  <div class="row hability">
+			<div class="col-md-6 text-center">Microsoft SQL Server</div>
+			<div class="col-md-6 text-center">Oracle Database Server</div>
+		  </div>
+		  <div class="row hability">
+			<div class="col-md-4 text-center">Agile</div>
+			<div class="col-md-4 text-center">Git</div>
+			<div class="col-md-4 text-center">Linux</div>
+		  </div>
+		</div>
+
+	  <hr/>
+	  
+	  <h2 id="contato">Contato</h2>
+	  <p>
+		<a href="mailto:thiagohenriqueprestes@gmail.com" class="btn btn-primary">Me envie um e-mail</a>
+		<a href="https://github.com/ThiagoPrestes" class="btn btn-success">Visite meu GitHub</a>
+		<a href="https://www.linkedin.com/in/thiagohenriqueprestes/" class="btn btn-info">Visite meu Linkedin</a>
+	  </p>
+	  
+	  <form>
+	  <div class="row">
+		  <div class="form-group col-md-5">
+			<label for="exampleInputEmail1">E-mail</label>
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Preencha o e-mail">
+				</div>
+			</div>
+	  </div>
+	  <div class="row">
+		  <div class="form-group col-md-5">
+			<label for="exampleInputEmail1">Assunto</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Preencha o assunto">
+	     </div>
+      </div>
+	  <div class="row">
+		  <div class="form-group col-md-5">
+			<label for="exampleInputFile">Mensagem</label>
+			<textarea class="form-control" rows="3"></textarea>
+			<p class="help-block">Escreva até 1000 caracteres.</p>
+		  </div>
+      </div>
+		  <button type="submit" class="btn btn-default">Enviar</button>
+		</form>
+	  
+    </div> <!-- /container -->
+	
+	<hr/>
+
+    <footer>
+      <p>Desenvolvido por <a href="http://facebook.com/thiagohenriqueprestes">Thiago Prestes</a></p>
+      <p><a href="#">Voltar ao Início</a></p>
+    </footer>	
+
+    <!-- Bootstrap JavaScript -->
+    <!-- No fim, pois não trava o carregamento da página -->
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+		
+	<script>
+
+		$(".nav li").on("click", function() {
+		  $(".nav li").removeClass("active");
+		  $(this).addClass("active");
+		});
+
+	</script>
+</body>
+</html>

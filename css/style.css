@@ -31,7 +31,7 @@ section {
 }
 
 .jumbotron {
-    background-color: #BCD2EE;
+    background-color: #d7dbdd;
     height: 240px;
 }
 
@@ -54,11 +54,11 @@ section {
 }
 
 .hability div:nth-child(odd) {
-  background-color: #CAE1FF;
+  background-color: #f2f3f4;
 }
 
 .hability div:nth-child(even) {
-  background-color: #BCD2EE;
+  background-color: #d7dbdd;
 }
 
 footer {
